@@ -1,0 +1,16 @@
+Webpack notes
+
+Webpack is a tool  -> that lets you compile JavaScript modules, 
+It is also known as module bundler. 
+Given a large number of files, it generates a single file (or a few files) that run your app.
+
+Assets modules
+
+asset/resource -> should be used if file is large in size
+asset/inline -> converts image to base64. size will be very big. used for small files
+asset -> combination of asset/resource and asset/inline. takes based on image size
+asset/source -> convert image to string
+
+to use latest js in project babel needs to be installed
+
+--handlebar - template engine
